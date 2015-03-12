@@ -1,0 +1,117 @@
+
+* {
+		margin: 0px;
+		padding:0px;
+
+}
+
+html {
+		background: url(../images/selfie.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		opacity: 0.85;
+		height: 100%;
+		width: 100%;		
+		list-style: none;
+		text-decoration: none;
+		font-family: 'Lato';	
+		color: white;
+		font-size: 100%;
+}
+
+body {
+		height: 100%;
+		width: 100%;
+}
+
+a {
+		text-decoration: none;
+}
+
+a:visited {
+		text-decoration: none;
+		color: white;
+}
+
+header, nav, article, section, footer, aside {
+		display: block;
+}
+.boxbanner {
+		position: relative;
+		margin: auto;
+		background-color: rgba(192,192,192,0.3);		
+		min-width: 280px;
+		max-width: 65%;
+		min-height: 135px;
+		max-height: 214px;
+		text-align: center;
+		overflow: hidden;
+}
+
+.wrapper {
+		margin: 10px;
+		max-height: 100%;
+		max-width: 100%;
+}
+
+.headercontainer {
+		border: 3px solid white;
+		font-size: 2.3em;
+		margin: 5px 0px;
+}
+
+/*ask about how to adjust the padding on the header (explore my work) so that the anchor (link) is a 100% wide button*/
+
+.headercontainer:hover{
+		background-color: rgba(192,192,192,0.4);
+		border-color: rgba(192,192,192,0.0);
+}
+
+#exploremywork {
+		padding: 0px 10px;
+}
+
+#name {
+		margin: auto;
+		color: grey;
+		padding: 15px 0px;
+		letter-spacing: 6px;
+		margin-bottom: 6px;
+}
+
+.buttons {
+		border: 1px solid white;
+		border-left: 0px;
+		border-right: 0px;
+		letter-spacing: 1.5px;
+
+}
+
+.buttons li {
+		display: inline;
+		margin: 3px 0px;
+}
+
+.buttons li a:hover {
+		background-color: rgba(192,192,192,0.4);
+}
+
+.buttons_ {
+		padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

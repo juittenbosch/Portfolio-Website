@@ -1,0 +1,15 @@
+@media only screen and (max-width:450px) { 
+    /* Smartphone view: 1 tile */
+    
+    
+
+.item {
+        width: 100%;
+        height: 10px;
+        padding-bottom: 50%;
+        
+        
+        
+        
+    }
+}
